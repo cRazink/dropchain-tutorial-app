@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    width: 90vw;
+  }
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+.button {
+  border-radius: 3px;
+  background-color: hsla(154.14225941422595, 99.17%, 47.25%, 1.00);
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-2 {
+  display: flex;
+  margin-top: 5vh;
+  padding: 15px;
+  flex-direction: column;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+
+  border-radius: 6px;
+
+  background-color: hsla(217.5, 11.76%, 13.33%, 1.00);
+}
+
+.text-block {
+  color: hsla(0, 0.00%, 94.12%, 1.00);
+  font-size: 16px;
+  font-weight: 700;
+}
