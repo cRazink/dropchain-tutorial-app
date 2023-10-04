@@ -2,6 +2,13 @@
 
 This guide will walk you through the steps to set up your own development environment using the `dropchain-tutorial-app` as a starting point. Make sure you have `node.js` and `npm` installed on your machine before proceeding.
 
+### Prerequisites:
+
+- **Node.js and npm**: Ensure you have Node.js and npm installed on your machine. If not, you can download and install them from [Node.js official website](https://nodejs.org/). Once installed, you can verify the installation by running the following commands in your terminal:
+  ```bash
+  node -v
+  npm -v
+
 ### 1. **Clone the Repository:**
    - Clone the `dropchain-tutorial-app` repository from GitHub to your local machine using the following command:
      ```bash
